@@ -1,6 +1,6 @@
 import { homeData } from "../../data/homeData";
 
-import heroImg from "../../assets/image.png";
+import heroImg from "../../assets/logo.png";
 
 import styles from "./Hero.module.css";
 
