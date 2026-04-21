@@ -10,8 +10,6 @@ import RealProjects from "../pages/RealProjects/RealProjects";
 function AppRouter() {
   return (
     <BrowserRouter>
-      <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
