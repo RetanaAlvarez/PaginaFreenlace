@@ -1,8 +1,10 @@
 const urlJLE = "https://disenosjle.vercel.app/";
 const urlLeny = "https://lenyyanel.vercel.app/";
 
-const imagenJLE="src/assets/jlemadera.png";
+const imagenJLE = "src/assets/jlemadera.png";
 const imagenlenyyanel = "src/assets/lenyyanel.png";
+
+const portafolio = "https://josemanuelra.vercel.app/";
 
 export const projectsRealData = {
     header: {
@@ -11,13 +13,13 @@ export const projectsRealData = {
     },
     card: [
         {
-            imagen:imagenJLE,
+            imagen: imagenJLE,
             url: urlJLE,
             nombre: "JLE Corte y Grabado Láser",
             descripcioncard: "Transformamos tus ideas en creaciones únicas de madera MDF. Diseños personalizados con tecnología láser para cada ocasión especial.",
             boton: "Ver sitio"
         }, {
-            imagen:imagenlenyyanel,
+            imagen: imagenlenyyanel,
             url: urlLeny,
             nombre: "Leny Yanel",
             descripcioncard: "Esferas de Cristal y Decoraciones Navideñas",
@@ -28,12 +30,13 @@ export const projectsRealData = {
 
 export const aboutMe = {
     aboutme: {
-        titulo: "",
+        titulo: "Sobre mí",
         descripcion: [
             "Soy desarrollador web freelance con experiencia en crear sitios que realmente ayudan a los negocios a crecer.",
             "Mi enfoque es simple: entender las necesidades de tu negocio y crear una solución web que convierta visitantes en clientes, sin complicaciones técnicas."
         ],
         boton: "Ver portafolio completo",
+        enlace: portafolio,
         card: {
             subtitulo: "¿Por qué trabajar conmigo?",
             lista: [{

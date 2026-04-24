@@ -1,8 +1,12 @@
-import Hero from "../Hero/Hero";
-
 import Navbar from "../../components/layout/Navbar/Navbar";
+
+import Hero from "../Hero/Hero";
 import Projects from "../Projects/Projects.jsx";
 import RealProject from "../RealProjects/RealProjects.jsx";
+
+import About from "../About/Aboutme.jsx";
+
+
 const Home = () => {
   return (
     <>
@@ -11,7 +15,7 @@ const Home = () => {
         <Hero />
         <Projects />
         <RealProject />
-
+        <About/>
       </main>
     </>
   )
