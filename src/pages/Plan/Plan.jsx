@@ -1,4 +1,4 @@
-import PricingCard from "../../components/layout/layout/PricingCard/PricingCard";
+import PricingCard from "../../components/layout/PricingCard/PricingCard";
 import { plansData } from "../../data/plansData";
 import styles from "./Plan.module.css";
 

@@ -6,6 +6,10 @@
 
     justify-items: center;
     align-items: center;
+
+
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .sobremi {

@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-import { homeData } from "../../../data/homeData";
+import { homeData } from "../../data/homeData";
 
 import style from "./Navbar.module.css";
 
