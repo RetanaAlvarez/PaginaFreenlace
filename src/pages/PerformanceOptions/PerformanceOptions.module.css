@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  background: #f9fafb;
+  background: #ffffff;
   padding: 40px 20px 50px 20px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .card {
-  background: white;
+  background: #e5e7eb;
   padding: 25px;
   border-radius: 16px;
   width: 280px;

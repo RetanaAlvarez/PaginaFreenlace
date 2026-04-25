@@ -1,9 +1,11 @@
-// src/data/plansData.js
 export const plansData = [
   {
     title: "Básico",
-    price: "1,999",
+    price: "2,499",
+    subtitle: "Pago único",
+    description: "Perfecto para empezar tu presencia online",
     popular: false,
+    cta: "Empezar",
     features: [
       "Página web de 1-3 secciones",
       "Diseño responsive",
@@ -13,8 +15,12 @@ export const plansData = [
   },
   {
     title: "Estándar",
-    price: "4,999",
+    price: "6,499",
+    subtitle: "Pago único",
+    description: "La mejor opción para negocios en crecimiento",
     popular: true,
+    badge: "Más elegido",
+    cta: "Elegir plan",
     features: [
       "Todo lo del plan Básico",
       "Hasta 6 secciones",
@@ -24,7 +30,10 @@ export const plansData = [
   },
   {
     title: "Premium",
-    price: "8,999",
+    price: "12,999",
+    subtitle: "Pago único",
+    description: "Para negocios que quieren escalar en serio",
+    cta: "Escalar ahora",
     features: [
       "Todo lo del plan Estándar",
       "Secciones ilimitadas",

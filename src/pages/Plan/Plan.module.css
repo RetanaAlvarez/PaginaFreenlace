@@ -2,9 +2,30 @@
 .pricing {
   text-align: center;
   padding: 60px 20px;
-  background: #f8fafc;
-  max-width: 1200px;
+  background: #e5e7eb;
+  max-width: 100%;
   margin: 0 auto;
+}
+
+.alert {
+  display: inline-block;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.payment {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background: #fef9c3;
+  color: #92400e;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 13px;
 }
 
 .cards {
@@ -71,13 +92,16 @@ li {
   color: black;
 }
 
-.pricing > p {
-    padding-bottom: 3rem;
-}
-
 @media (max-width: 768px) {
   .cards {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .popular {
+    transform: scale(1);
+
   }
 }

@@ -1,68 +1,78 @@
+/* CONTENEDOR DE CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* CARD */
 .card {
   width: 100%;
   max-width: 320px;
   background: white;
   padding: 30px;
   border-radius: 20px;
-  width: 300px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   position: relative;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+/* CARD POPULAR */
 .popular {
   background: linear-gradient(135deg, #3b82f6, #9333ea);
   color: white;
-  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(147, 51, 234, 0.3);
+  border: 2px solid #7c3aed;
 }
 
-.card>ul {
-
-  text-align: justify;
-}
-
-.check {
-  color: chartreuse;
-}
-
-.popular>.badge {
+/* BADGE */
+.badge {
   position: absolute;
-  top: -10px;
+  top: -12px;
   left: 50%;
   transform: translateX(-50%);
-  background: gold;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 12px;
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  color: #78350f;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* LISTA */
+.card ul {
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+/* CHECK */
+.check {
+  color: #22c55e;
   font-weight: bold;
 }
 
-.popular> .badge> .price{
-  background: #00f4aa;
-}
-
-.btn {
-  background: black;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
+/* TEXTOS */
 h3 {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 34px;
   margin: 10px 0;
+  font-weight: 700;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 p {
@@ -70,17 +80,61 @@ p {
   font-size: 14px;
 }
 
+.popular p {
+  color: white;
+}
 
-@media (max-width: 512px) {
+/* BOTÓN */
+.btn {
+  display: block;
+  margin-top: 20px;
+  background: #111827;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background: #000;
+}
+
+.popular .btn {
+  background: white;
+  color: #7c3aed;
+}
+
+.popular .btn:hover {
+  background: #f3f4f6;
+}
+
+@media (max-width: 768px) {
   .card {
-    padding: 30px 0px 30px 20px;
+    padding: 25px 20px;
   }
 }
 
+/* Mobile */
+@media (max-width: 480px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+}
 
 @media (max-width: 320px) {
   .card {
-    width: 100%;
-    padding: 30px 0px 30px 0px;
+    padding: 20px 15px;
   }
 }
