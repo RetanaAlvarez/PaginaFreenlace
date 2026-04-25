@@ -1,0 +1,61 @@
+.card {
+  width: 100%;
+  max-width: 320px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.popular {
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+  color: white;
+  transform: scale(1.05);
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: gold;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.popular p {
+  color: white;
+}
