@@ -1,8 +1,8 @@
 const urlJLE = "https://disenosjle.vercel.app/";
 const urlLeny = "https://lenyyanel.vercel.app/";
 
-const imagenJLE = "src/assets/jlemadera.png";
-const imagenlenyyanel = "src/assets/lenyyanel.png";
+import imagenJLE from "../assets/jlemadera.png";
+import imagenLeny from "../assets/lenyyanel.png";
 
 const portafolio = "https://josemanuelra.vercel.app/";
 
