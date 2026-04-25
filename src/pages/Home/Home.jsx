@@ -6,6 +6,7 @@ import Projects from "../Projects/Projects.jsx";
 import Plan from "../Plan/Plan.jsx";
 import RealProject from "../RealProjects/RealProjects.jsx";
 import PerformanceOptions from "../PerformanceOptions/PerformanceOptions.jsx";
+import QuizSection from "../Quiz/QuizSection/QuizSection.jsx";
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
         <About />
         <Plan />
         <PerformanceOptions/>
+        <QuizSection/>
       </main>
     </>
   )

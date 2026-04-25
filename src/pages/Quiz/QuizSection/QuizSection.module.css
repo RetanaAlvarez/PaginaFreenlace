@@ -1,0 +1,159 @@
+.container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.box {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* PREGUNTAS */
+.question {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.activeQuestion {
+  border: 2px solid #a855f7;
+}
+
+/* BOTONES */
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #e5e7eb;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.actions button.yes {
+  background: #16a34a;
+  color: white;
+}
+
+.actions button.no {
+  background: #2563eb;
+  color: white;
+}
+
+.actions button.inactive {
+  background: #e5e7eb;
+  color: #9ca3af;
+}
+.inactive {
+  background: #e5e7eb;
+  color: #9ca3af;
+  opacity: 1;
+}
+
+/* HOVER PRO */
+.actions button:hover {
+  transform: scale(1.02);
+}
+
+.actions button:active {
+  transform: scale(0.97);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.primary {
+  flex: 1;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary {
+  flex: 1;
+  background: #e5e7eb;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* RESULTADO */
+.resultCard {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  text-align: left;
+}
+
+.inicial {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+}
+
+.profesional {
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+}
+
+.avanzado {
+  background: linear-gradient(135deg, #ef4444, #f97316);
+}
+
+.cta {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: white;
+  color: #7c3aed;
+  cursor: pointer;
+}
+
+.resetResult {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .actions {
+    flex-direction: column;
+  }
+}
