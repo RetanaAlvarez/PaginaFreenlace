@@ -19,7 +19,7 @@ export const projectsRealData = {
             descripcioncard: "Transformamos tus ideas en creaciones únicas de madera MDF. Diseños personalizados con tecnología láser para cada ocasión especial.",
             boton: "Ver sitio"
         }, {
-            imagen: imagenlenyyanel,
+            imagen: imagenLeny,
             url: urlLeny,
             nombre: "Leny Yanel",
             descripcioncard: "Esferas de Cristal y Decoraciones Navideñas",
