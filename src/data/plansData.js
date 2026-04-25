@@ -3,6 +3,7 @@ export const plansData = [
   {
     title: "Básico",
     price: "1,999",
+    popular: false,
     features: [
       "Página web de 1-3 secciones",
       "Diseño responsive",

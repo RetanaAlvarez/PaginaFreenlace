@@ -3,7 +3,7 @@ export const homeData = {
         logo: "WebDev Pro",
         cta: "Hablar por WhatsApp",
         whatsappNumber: "527121933662",
-        message: "Hola, Me podria compartir mas informacion por favor."
+        message: "Hola, buen día. Me gustaría recibir más información sobre sus servicios de desarrollo web."
     },
     hero: {
         badge: "⚡Solo 3 espacios disponibles este mes",

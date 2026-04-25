@@ -1,14 +1,18 @@
+import { createWhatsAppLink } from "../../../utils/whatsapp";
 
 import styles from "./PricingCard.module.css";
 
 export default function PricingCard({ title, price, features, popular }) {
+
+  const message = `Hola, buen día. Estoy interesado en el plan *${title}* y me gustaría recibir más información sobre mi página web.`;
+
+  const url = createWhatsAppLink(message);
   return (
 
     <div className={`${styles.card} ${popular ? styles.popular : ""}`}>
-
-      <span className={styles.badge}>MÁS POPULAR</span>
-
-      <button className={styles.btn}>Elegir plan</button>
+      {popular && (
+        <span className={styles.badge}>MÁS POPULAR</span>
+      )}
       <h3>{title}</h3>
 
       <p>
@@ -22,11 +26,14 @@ export default function PricingCard({ title, price, features, popular }) {
 
       <ul>
         {features.map((f, i) => (
-          <li key={i}>✔ {f}</li>
+          <li key={i}><span className={styles.check}>✔</span> {f}</li>
         ))}
       </ul>
 
-      <button className={styles.btn}>Elegir plan</button>
+      <a href={url} target="_blank" rel="noopener noreferrer" className={styles.btn}>
+        Elegir plan
+      </a>
+
     </div>
   );
 }

@@ -20,7 +20,16 @@
   transform: scale(1.05);
 }
 
-.badge {
+.card>ul {
+
+  text-align: justify;
+}
+
+.check {
+  color: chartreuse;
+}
+
+.popular>.badge {
   position: absolute;
   top: -12px;
   left: 50%;
@@ -39,6 +48,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 h3 {
@@ -58,4 +68,19 @@ p {
 
 .popular p {
   color: white;
+}
+
+
+@media (max-width: 512px) {
+  .card {
+    padding: 30px 0px 30px 20px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .card {
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
 }
