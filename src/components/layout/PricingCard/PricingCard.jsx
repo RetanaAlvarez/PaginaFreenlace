@@ -21,7 +21,7 @@ export default function PricingCard({ title, price, features, popular }) {
         {title === "Premium" && "Solución completa"}
       </p>
 
-      <h2>${price}</h2>
+      <h2 className={styles.price}>${price}</h2>
       <span>MXN</span>
 
       <ul>

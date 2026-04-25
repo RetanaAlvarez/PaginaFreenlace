@@ -25,7 +25,7 @@ export const performanceData = {
     },
     {
       nombre: "Plan Avanzado",
-      precio: "Desde $800 MXN/mes",
+      precio: "Desde $800+ MXN/mes",
       features: [
         "Máximo rendimiento",
         "Proyectos grandes",
