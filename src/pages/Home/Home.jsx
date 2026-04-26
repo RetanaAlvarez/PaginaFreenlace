@@ -7,6 +7,8 @@ import Plan from "../Plan/Plan.jsx";
 import RealProject from "../RealProjects/RealProjects.jsx";
 import PerformanceOptions from "../PerformanceOptions/PerformanceOptions.jsx";
 import QuizSection from "../Quiz/QuizSection/QuizSection.jsx";
+import Contacto from "../Contacto/Contacto.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 
 
@@ -22,7 +24,9 @@ const Home = () => {
         <Plan />
         <PerformanceOptions/>
         <QuizSection/>
+        <Contacto/>
       </main>
+      <Footer/>
     </>
   )
 };
