@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar/Navbar";
 
 import Home from "../pages/Home/Home";
 import Restaurante from "../pages/DemoProjects/Restaurante/Restaurante";
-import tienda from "../pages/DemoProjects/Tienda/Tienda";
-import consultorio from "../pages/DemoProjects/Consultorio/Consultorio";
-import empresarial from "../pages/DemoProjects/Empresarial/Empresarial";
+import Tienda from "../pages/DemoProjects/Tienda/Tienda";
+import Consultorio from "../pages/DemoProjects/Consultorio/Consultorio";
+import Empresarial from "../pages/DemoProjects/Empresarial/Empresarial";
 
 function AppRouter() {
   return (
@@ -14,9 +14,9 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/restaurante" element={<Restaurante />} />
-        <Route path="/tienda" element={<tienda />} />
-        <Route path="/consultorio" element={<consultorio />} />
-        <Route path="/empresarial" element={<empresarial />} />s
+        <Route path="/tienda" element={<Tienda />} />
+        <Route path="/consultorio" element={<Consultorio />} />
+        <Route path="/empresarial" element={<Empresarial />} />s
       </Routes>
     </BrowserRouter>
   );

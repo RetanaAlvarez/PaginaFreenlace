@@ -52,7 +52,7 @@ export const projectsData = {
                 "Información de servicios",
                 "Contacto directo"
             ],
-            ruta: "#consultorio",
+            ruta: "/consultorio",
             active: false,
 
             color: {
@@ -69,7 +69,7 @@ export const projectsData = {
                 "Casos de éxito",
                 "Formulario de contacto"
             ],
-            ruta: "/empresa",
+            ruta: "/empresarial",
             active: false,
 
             color: {

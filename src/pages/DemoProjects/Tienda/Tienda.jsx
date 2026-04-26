@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Tienda() {
   return (
-    <div>Tienda</div>
+    <section id='tienda'>
+      <div>Tienda</div>
+    </section>
   )
 }
