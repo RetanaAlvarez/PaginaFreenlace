@@ -18,6 +18,7 @@ export const projectsData = {
                 "Galería de platillos"
             ],
             ruta: "/Restaurante",
+            active: false,
 
             color: {
                 bg: "linear-gradient(to bottom, #f8802a, #fbbcbc)",
@@ -35,6 +36,7 @@ export const projectsData = {
                 "Filtros y búsqueda"
             ],
             ruta: "/Tienda",
+            active: false,
 
             color: {
                 bg: "linear-gradient(to bottom, #5898ff, #b3f2fc)",
@@ -51,6 +53,7 @@ export const projectsData = {
                 "Contacto directo"
             ],
             ruta: "/Consultorio",
+            active: false,
 
             color: {
                 bg: "linear-gradient(to bottom, #9244db, #ff80bf)",
@@ -67,6 +70,7 @@ export const projectsData = {
                 "Formulario de contacto"
             ],
             ruta: "/Empresa",
+            active: false,
 
             color: {
                 bg: "linear-gradient(to bottom, #2ff879, #90f5d3)",

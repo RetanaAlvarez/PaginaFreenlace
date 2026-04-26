@@ -14,7 +14,7 @@ function Projects() {
             <div className={styles.card}>
                 {demo.map((item, index) => (
                     <div key={index} className={styles.intocard} style={{ background: item.color.bg }}>
-                        
+
                         {/* HEADER */}
                         <div
                             className={styles.header}
@@ -35,17 +35,23 @@ function Projects() {
                                 ))}
                             </ul>
 
-                            <a
-                                href={item.ruta}
-                                className={styles.button}
-                                style={{
-                                    border: `2px solid ${item.color.button}`,
-                                    color: item.color.border,
-                                    background: item.color.button
-                                }}
-                            >
-                                {boton}
-                            </a>
+                            {item.active ? (
+                                <a
+                                    href={item.ruta}
+                                    className={styles.button}
+                                    style={{
+                                        border: `2px solid ${item.color.button}`,
+                                        color: item.color.border,
+                                        background: item.color.button
+                                    }}
+                                >
+                                    {boton}
+                                </a>
+                            ) : (
+                                <button className={`${styles.button} ${styles.disabled}`}>
+                                    Próximamente
+                                </button>
+                            )}
                         </div>
 
                     </div>

@@ -18,11 +18,18 @@
     font-size: 1.1rem;
 }
 
+.disabled {
+    background: #e5e7eb !important;
+    color: #6b7280 !important;
+    cursor: not-allowed;
+    border: none !important;
+}
+
 .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    
+
     padding-bottom: 1rem;
 }
 
