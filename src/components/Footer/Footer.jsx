@@ -20,7 +20,7 @@ export default function Footer() {
           <a href="#proyectos">Proyectos</a>
           <a href="#precios">Precios</a>
           <a href="#contacto">Contacto</a>
-          <a href="#">Portafolio completo ↗</a>
+          <a href="#sobremi">Portafolio completo ↗</a>
         </div>
 
         <div className={styles.contact}>

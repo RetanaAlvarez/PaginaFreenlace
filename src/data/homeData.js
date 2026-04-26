@@ -25,7 +25,7 @@ export const homeData = {
             },
             {
                 nombre: "Ver Proyecto",
-                ruta: "#proyecto"
+                ruta: "#proyectos"
             }
         ]
     }

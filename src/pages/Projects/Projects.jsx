@@ -6,7 +6,7 @@ function Projects() {
     const { titulo, descripcion, demo, boton, comentario } = projectsData.project;
 
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="proyectos">
 
             <h1 className={styles.titulo}>{titulo}</h1>
             <p className={styles.descripcion}>{descripcion}</p>

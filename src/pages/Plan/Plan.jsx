@@ -4,7 +4,7 @@ import styles from "./Plan.module.css";
 
 export default function Plan() {
     return (
-        <section className={styles.pricing}>
+        <section className={styles.pricing} id="precios">
 
             <span className={styles.alert}>
                 🔥 Solo 3 espacios disponibles este mes

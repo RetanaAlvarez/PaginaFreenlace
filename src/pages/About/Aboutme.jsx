@@ -9,7 +9,7 @@ function Aboutme() {
     const { subtitulo, lista } = aboutMe.aboutme.card;
 
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="sobremi">
             <div className={styles.sobremi}>
                 <div className={styles.avatar}>
                     <FiUser />

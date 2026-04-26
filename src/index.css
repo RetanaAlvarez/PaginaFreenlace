@@ -4,6 +4,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
 
 :root {
   --color-primary: #7c3aed;
