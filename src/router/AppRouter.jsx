@@ -3,18 +3,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 
 import Home from "../pages/Home/Home";
-import Projects from "../pages/Projects/Projects";
-import DemoProjects from "../pages/DemoProjects/DemoProjects";
-import RealProjects from "../pages/RealProjects/RealProjects";
+import Restaurante from "../pages/DemoProjects/Restaurante/Restaurante";
+import tienda from "../pages/DemoProjects/Tienda/Tienda";
+import consultorio from "../pages/DemoProjects/Consultorio/Consultorio";
+import empresarial from "../pages/DemoProjects/Empresarial/Empresarial";
 
 function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/demos" element={<DemoProjects />} />
-        <Route path="/real-projects" element={<RealProjects />} />
+        <Route path="/restaurante" element={<Restaurante />} />
+        <Route path="/tienda" element={<tienda />} />
+        <Route path="/consultorio" element={<consultorio />} />
+        <Route path="/empresarial" element={<empresarial />} />s
       </Routes>
     </BrowserRouter>
   );

@@ -17,8 +17,8 @@ export const projectsData = {
                 "Botón directo a WhatsApp",
                 "Galería de platillos"
             ],
-            ruta: "/Restaurante",
-            active: false,
+            ruta: "/restaurante",
+            active: true,
 
             color: {
                 bg: "linear-gradient(to bottom, #f8802a, #fbbcbc)",
@@ -35,7 +35,7 @@ export const projectsData = {
                 "Carrito de compras",
                 "Filtros y búsqueda"
             ],
-            ruta: "/Tienda",
+            ruta: "/tienda",
             active: false,
 
             color: {
@@ -52,7 +52,7 @@ export const projectsData = {
                 "Información de servicios",
                 "Contacto directo"
             ],
-            ruta: "/Consultorio",
+            ruta: "#consultorio",
             active: false,
 
             color: {
@@ -69,7 +69,7 @@ export const projectsData = {
                 "Casos de éxito",
                 "Formulario de contacto"
             ],
-            ruta: "/Empresa",
+            ruta: "/empresa",
             active: false,
 
             color: {
