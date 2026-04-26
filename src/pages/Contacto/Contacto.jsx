@@ -38,14 +38,6 @@ export default function Contacto() {
                         onChange={handleChange}
                     />
 
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="tu@email.com"
-                        value={form.email}
-                        onChange={handleChange}
-                    />
-
                     <textarea
                         name="message"
                         placeholder="¿Qué tipo de página necesitas?"
