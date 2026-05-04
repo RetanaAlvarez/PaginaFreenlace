@@ -1,17 +1,15 @@
+import { homeData } from "../../data/homeData";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
+  const { version } = homeData.footer;
   return (
     <footer className={styles.footer}>
-
       <div className={styles.container}>
-
         {/* BRAND */}
         <div className={styles.brand}>
           <h3>WebDev Pro</h3>
-          <p>
-            Creando páginas web que ayudan a crecer negocios en México
-          </p>
+          <p>Creando páginas web que ayudan a crecer negocios en México</p>
         </div>
 
         {/* LINKS */}
@@ -28,7 +26,6 @@ export default function Footer() {
           <p>📩 retanaalvarez@gmail.com</p>
           <p>💬 712 193 3662</p>
         </div>
-
       </div>
 
       {/* DIVIDER */}
@@ -37,7 +34,7 @@ export default function Footer() {
       {/* BOTTOM */}
       <div className={styles.bottom}>
         <p>© 2026 WebDev Pro. Todos los derechos reservados.</p>
-        <span className={styles.version}>v1.1.5</span>
+        <span className={styles.version}>{version}</span>
       </div>
     </footer>
   );
