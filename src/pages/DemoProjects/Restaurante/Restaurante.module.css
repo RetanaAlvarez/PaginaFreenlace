@@ -1,0 +1,51 @@
+.hero {
+  color: white;
+}
+.encabezado > p {
+  color: white;
+}
+small {
+  color: white;
+}
+
+/* TITULOS */
+.titleSection {
+  color: #ff4d00;
+  font-weight: bold;
+  border-bottom: 2px solid #ff4d00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* PRECIO */
+.price {
+  color: #ff4d00;
+  font-weight: bold;
+}
+
+/* CARD HOVER */
+.cardHover {
+  transition: all 0.3s ease;
+}
+
+.cardHover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* BOTON */
+.btnOrder {
+  transition: all 0.3s ease;
+}
+
+.btnOrder:hover {
+  transform: scale(1.03);
+}
+
+footer p {
+  transition: all 0.3s ease;
+}
+
+footer p:hover {
+  color: white;
+}
