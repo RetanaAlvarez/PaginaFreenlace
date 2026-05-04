@@ -54,7 +54,7 @@ export const projectsData = {
           "Contacto directo",
         ],
         ruta: "/consultorio",
-        active: false,
+        active: true,
 
         color: {
           bg: "linear-gradient(to bottom, #9244db, #ff80bf)",

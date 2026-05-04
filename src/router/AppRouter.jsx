@@ -16,7 +16,7 @@ function AppRouter() {
         <Route path="/restaurante" element={<Restaurante />} />
         <Route path="/tienda" element={<Tienda />} />
         <Route path="/consultorio" element={<Consultorio />} />
-        <Route path="/empresarial" element={<Empresarial />} />s
+        <Route path="/empresarial" element={<Empresarial />} />
       </Routes>
     </BrowserRouter>
   );
