@@ -36,7 +36,7 @@ export const projectsData = {
           "Filtros y búsqueda",
         ],
         ruta: "/tienda",
-        active: false,
+        active: true,
 
         color: {
           bg: "linear-gradient(to bottom, #5898ff, #b3f2fc)",
